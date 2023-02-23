@@ -1,7 +1,7 @@
-Backend : Typescript, Express JS, Prisma
-Frontend: React JS
-Unit Testing: Jest, Supertest
-E2E Testing: Jest, Playwright
+Backend : Typescript, Express JS, Prisma  
+Frontend: React JS  
+Unit Testing: Jest, Supertest  
+E2E Testing: Jest, Playwright  
 
 Untuk memulai silahkan clone repository terlebih dahulu.
 Setelah selesai diclone jalankan `pnpm install` pada folder simple-rest-api(folder utama), frontend dan e2e karena masing-masing memiliki package yang terpisah.
