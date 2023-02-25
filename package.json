@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "ts-node-dev --respawn --transpile-only --exit-child ./src/index.ts",
+        "start": "ts-node ./src/index.ts",
         "test": "jest",
         "migrate": "npx prisma migrate dev"
     },
