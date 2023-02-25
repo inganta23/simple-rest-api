@@ -10,7 +10,6 @@ dotenv.config();
 const accessTokenCookieOptions: CookieOptions = {
     maxAge: 900000, // 15 mins
     httpOnly: true,
-    domain: 'localhost',
     path: '/',
     sameSite: 'lax',
     secure: false
