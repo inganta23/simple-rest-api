@@ -4,10 +4,10 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "ts-node ./src/index.ts",
         "test": "jest",
         "migrate": "npx prisma migrate dev",
-        "generate": "npx prisma generate"
+        "generate": "npx prisma generate",
+        "start": "npm run generate && ts-node ./src/index.ts"
     },
     "keywords": [],
     "author": "",
